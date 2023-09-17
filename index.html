@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Form</title>
+</head>
+<body>
+    <h1>Student Application Form</h1>
+   
+    <form action="action" id="frm" name="forum" method="get">
+       
+     <fieldset><div id="name">
+        <legend>student data</legend>
+        <label for="name">name :</label>
+        <input type="text" name="nam" placeholder="enter your name" >
+    </div>
+    <br>
+    <div id="number">
+        <label for="num">Age :</label>
+        <input type="number" name="num" min="09" max="80">
+         
+    </div>
+     <br>
+     <div id="phnumber">
+        <label for="phnumber">Phone Number :</label>
+        <input type="number" name="numbph" id="numph" minlength="10" maxlength="10">        
+     </div>
+       <br>
+       <div id="email">
+       <label for="email">email :</label>
+       <input type="email" name="em" id="email">
+       <br>
+    </div>
+    <br>
+       <div id="skills">
+        <label for="skills">skills :</label>
+        <input type="checkbox" name="skl" id="skills" value="html">Html
+        <input type="checkbox" name="skl" id="skills" value="css">Css
+        <input type="checkbox" name="skl" id="skills" value="javascript">javascript
+       </div>
+       <br>
+       <div id="gender">
+        <label for="gen">Gender :</label>
+      <input type="radio" name="gnd" id="gender" value="male">male
+      <input type="radio" name="gnd" id="gender" value="female">female
+
+       </div>
+       <div>
+        <label for="clr">color</label>
+        <input type="color" name="colorr" id="clr" >
+
+       </div>
+       <input type="submit" value="apply">
+     </fieldset>
+
+    </form>
+
+
+    
+
+
+   
+        
+    
+</body>
+</html>
